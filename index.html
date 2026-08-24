@@ -2,9 +2,237 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>María</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfolio fotográfico de María Núñez Enríquez. Fotografía de fauna, danza y documental.">
+
+    <title>María Núñez Enríquez | Fotografía</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Hola mandarino</h1>
+
+    <!-- Navegación -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#inicio" class="logo">
+                María Núñez Enríquez
+            </a>
+
+            <button class="menu-toggle" aria-label="Abrir menú">
+                ☰
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Portada -->
+        <section id="inicio" class="hero">
+
+            <div class="hero-content">
+                <p class="eyebrow">Fotografía</p>
+
+                <h1>María Núñez<br>Enríquez</h1>
+
+                <p class="hero-text">
+                    Fauna · Danza · Documental
+                </p>
+
+                <a href="#portfolio" class="button">
+                    Ver portfolio
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="portfolio section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">Portfolio</p>
+
+                    <h2>Historias a través de la imagen</h2>
+
+                    <p>
+                        Una selección de trabajos divididos en tres miradas:
+                        fauna, danza y documental.
+                    </p>
+                </div>
+
+
+                <!-- Fauna -->
+                <article class="category">
+
+                    <a href="#fauna" class="category-link">
+
+                        <div class="category-image">
+                            <img
+                                src="fotos/fauna/fauna-01.jpg"
+                                alt="Fotografía de fauna"
+                            >
+                        </div>
+
+                        <div class="category-info">
+                            <span>01</span>
+                            <h3>Fauna</h3>
+                            <p>
+                                Naturaleza, animales y momentos
+                                capturados en su entorno.
+                            </p>
+                        </div>
+
+                    </a>
+
+                </article>
+
+
+                <!-- Danza -->
+                <article class="category">
+
+                    <a href="#danza" class="category-link">
+
+                        <div class="category-image">
+                            <img
+                                src="fotos/danza/danza-01.jpg"
+                                alt="Fotografía de danza"
+                            >
+                        </div>
+
+                        <div class="category-info">
+                            <span>02</span>
+                            <h3>Danza</h3>
+                            <p>
+                                Movimiento, expresión y emoción
+                                a través del cuerpo.
+                            </p>
+                        </div>
+
+                    </a>
+
+                </article>
+
+
+                <!-- Documental -->
+                <article class="category">
+
+                    <a href="#documental" class="category-link">
+
+                        <div class="category-image">
+                            <img
+                                src="fotos/documental/documental-01.jpg"
+                                alt="Fotografía documental"
+                            >
+                        </div>
+
+                        <div class="category-info">
+                            <span>03</span>
+                            <h3>Documental</h3>
+                            <p>
+                                Historias y momentos reales
+                                contados desde la fotografía.
+                            </p>
+                        </div>
+
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="about section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">Sobre mí</p>
+
+                    <h2>Mirar. Esperar. Capturar.</h2>
+                </div>
+
+                <div class="about-content">
+
+                    <p>
+                        Soy María Núñez Enríquez, fotógrafa interesada
+                        en capturar historias, emociones y momentos
+                        que merecen ser recordados.
+                    </p>
+
+                    <p>
+                        Mi trabajo explora diferentes formas de observar
+                        el mundo, desde la naturaleza y la fauna hasta
+                        el movimiento de la danza y la fotografía documental.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contacto -->
+        <section id="contacto" class="contact section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">Contacto</p>
+
+                    <h2>Hablemos</h2>
+
+                    <p>
+                        Para proyectos, colaboraciones o cualquier consulta,
+                        puedes ponerte en contacto conmigo.
+                    </p>
+                </div>
+
+                <div class="contact-links">
+
+                    <a href="mailto:tuemail@ejemplo.com">
+                        Email
+                    </a>
+
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        Instagram
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Pie de página -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 María Núñez Enríquez
+            </p>
+
+        </div>
+
+    </footer>
+
 </body>
 </html>
